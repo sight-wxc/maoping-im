@@ -1,4 +1,4 @@
-package org.jim.server.command;
+package com.sight.mao.command;
 
 import org.jim.common.ImAio;
 import org.jim.common.ImPacket;
@@ -7,6 +7,7 @@ import org.jim.common.http.HttpRequest;
 import org.jim.common.packets.Command;
 import org.jim.common.packets.LoginReqBody;
 import org.jim.common.utils.JsonKit;
+import org.jim.server.command.CommandManager;
 import org.jim.server.command.handler.LoginReqHandler;
 import org.jim.server.command.handler.processor.handshake.WsHandshakeProcessor;
 import org.tio.core.ChannelContext;

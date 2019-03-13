@@ -1,4 +1,4 @@
-package org.jim.server.service;
+package com.sight.mao.service;
 
 import cn.hutool.core.util.RandomUtil;
 import org.apache.commons.lang3.StringUtils;

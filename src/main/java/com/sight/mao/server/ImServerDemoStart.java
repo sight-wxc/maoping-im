@@ -1,4 +1,4 @@
-package org.jim.server.server;
+package com.sight.mao.server;
 
 import org.apache.commons.lang3.StringUtils;
 import org.jim.common.ImConfig;
@@ -7,16 +7,18 @@ import org.jim.common.config.PropertyImConfigBuilder;
 import org.jim.common.packets.Command;
 import org.jim.server.ImServerStarter;
 import org.jim.server.command.CommandManager;
-import org.jim.server.command.DemoWsHandshakeProcessor;
+
 import org.jim.server.command.handler.HandshakeReqHandler;
 import org.jim.server.command.handler.LoginReqHandler;
 import org.jim.server.listener.ImDemoGroupListener;
-import org.jim.server.service.LoginServiceProcessor;
+
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 import org.tio.core.ssl.SslConfig;
 
 import com.jfinal.kit.PropKit;
+import com.sight.mao.command.DemoWsHandshakeProcessor;
+import com.sight.mao.service.LoginServiceProcessor;
 
 @Component
 public class ImServerDemoStart implements CommandLineRunner{

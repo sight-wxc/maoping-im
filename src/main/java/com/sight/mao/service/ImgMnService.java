@@ -1,4 +1,4 @@
-package org.jim.server.service;
+package com.sight.mao.service;
 
 import java.io.File;
 import java.io.IOException;
